@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+function func1()
+{
+alert("Было же написано по русски! НЕ НАЖИМАТЬ! Вот что было не понятного!?:)")
+}
+function func2()
+{
+var per = document.getElementById("Button");
+var val=per.value;
+var sp = document.getElementById("sp");
+sp.innerHTML = "Вы ввели: " + val;
+}
+function func3()
+{
+ var sptwo =  document.getElementById("sptwo");
+ sptwo.innerHTML = "Оно работает?Хах,я и не сомневался!";
+}
+</script>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="черновик">
+<meta name="description" content="Тут я просто балуюсь">
+<link rel="stylesheet" type= "text/css" href="STYLES1.css">
+<style>
+hr {height: 3px;} body {background-color: #C0C0C0;}
+.Cub {
+  background: SteelBlue;
+  width: 300px;
+  height: 150px;
+  transition: .5s;
+  margin-left: 610px;
+}
+#chetyre2:checked ~ .Cub {
+  background: Indigo;
+}
+#chetyre3:checked ~ .Cub {
+  background: DarkSlateGrey;
+}
+</style>
+<title>Черновик</title>
+</head>
+<body>
+<h1 id="start">НАЧАЛО</h1>
+<p style="text-align: center;">На этой странице я просто балуюсь и пробую основы HTML + чуть-чуть css и java script, что-то более серьезное будет на следующей странице</p>
+<hr>
+<p style="text-indent: 30px;text-align: center;">Это ссылка в html на <a href="https://www.youtube.com/watch?v=c282gsT1iBo&t=1232s" target="_blank">ВИДЕО</a> в YouTube.</p>
+<hr>
+<!--Просто чтобы показать, что я знаю как делать комментарии:)-->
+<!--А этот так, чтобы было заметнее тот, что повыше-->
+<p class="lp" style="text-align: center;"><em>"I don't know what's worth fighting for<br>
+Or why I have to scream<br>
+I don't know why I instigate<br>
+And say what I don't mean<br><br>
+I don't know how I got this way<br>
+I know it's not alright<br>
+So I'm breaking the habit<br>
+I'm breaking the habit tonight"</em></p>
+<p style="text-indent: 170px;text-align: center;"><strong>LinkinPark</strong></p><br>
+<li class="met"><a href="https://www.youtube.com/watch?v=tAGnKpE4NCI" target="_blank"><strong>Metallica - Nothing Else Matters [Official Music Video]</strong></a></li><br>
+<hr>
+<p style="text-align: center;"><q>Никто не умрет девственником. Жизнь всех поимеет</q></p><p style="text-indent: 200px;text-align: center;">(с) - Kурт Кобейн, <strong>Nirvana</strong></p>
+<hr style="color:red;">
+<p style="text-indent: 30px;font-family:verdana;color:blue;text-align: center;">Я у Мамы <del>молодец</del> МЕХАНИК!!1!1</p><br>
+<p style="font-family:verdana;color:green;text-align: center;">Сладкие мечты тут:
+<a href="https://www.youtube.com/watch?v=qeMFqkcPYcg" target="_blank">
+<img src="C:\Users\nebel\Desktop\Тупо черновик\SweetDreams.jpg" alt="ссылка" width="500" height="270"></a></p><br>
+<h4>Что нам надо знать на данный момент по ТПиОС:</h4>
+<p><ol>
+<li>html</li>
+<li>css</li>
+<li>java</li>
+<li>Python</li>
+</ol></p><br>
+<h4>Пусть будет здесь</h4>
+<p class="ul"><ul>
+<li>Chill Bill-Rob $tone feat. J. Davi$, Spooks</li>
+<li>50 Cent-In Da Club</li>
+<li>Limp Bizkit-Behind Blue Eyes</li>
+<li>Kaleo-Way Down We Go</li>
+<li>The Pretty Reckless-Panic</li>
+</ul></p><br>
+<hr>
+<form action="myform.php" method="post">
+<p style="text-align: center;"><input style="width:130px;height:50px" value="НЕ НАЖИМАТЬ!!!" align="middle" onclick="func1()" type="button"></p><br><br>
+<p style="text-align: center;"><input type="text" id="Button" name="name" maxlength="220" placeholder="Писать тут">
+<input value="Смотрите" onclick="func2()" type="button"></p>
+<p style="text-align: center;"><span id="sp"></span></p><br>
+<h3 style="text-align: center;"><strong>Какой цвет?</strong></h3>
+<p style="text-align: center;"><strong>Это "radio". Нажимая на кнопочки слева, вы будете менять цвет прямоугольника ниже</strong></p>
+<input type="radio" checked="checked" name="chetyre">SteelBlue
+<input type="radio" name="chetyre" id="chetyre2">Indigo
+<input type="radio" name="chetyre" id="chetyre3">DarkSlateGrey
+<div class="Cub"></div>
+<p style="text-align: center;"><input type="button" value="Восхититься" id="Vr" onclick="func3()"></p>
+<p style="text-align: center;"><span id="sptwo"></span></p><br>
+<h3 style="text-align: center;">Панель "Select"</h3>
+<h4 style="text-align: center;">Она существует - уже не плохо!:)</h4>
+<p style="text-align: center;"><select name="character">
+<option value="Матан">Матан</option>
+<option value="Механика">Механика</option>
+<option value="Устойчивость">Устойчивость</option>
+<option value="Программирование">Программирование</option>
+<option value="Кроватка:3">Кроватка:3</option>
+</select></p><br>
+<h3 style="text-align: center;color:Grey;font-family:verdana;">А это тут у нас "checkbox"</h3>
+<h3 style="text-align: center;">Что любите?</h3>
+<p style="text-align: center;"><input type="checkbox" name="spice" value="">Спать</p>
+<p style="text-align: center;"><input type="checkbox" name="spice" value="">Кушать</p>
+<p style="text-align: center;"><input type="checkbox" name="spice" value="">Музыку</p>
+<p style="text-align: center;"><input type="checkbox" name="spice" value="">Ходить на пары</p>
+<p style="text-align: center;"><input type="checkbox" name="spice" value="">Жизнь</p><br><br>
+<h4 style="text-align: center;color:black;font-family:verdana;">Без лишних слов "textarea". В ней даже писать можно;)</h4>
+<p style="text-align: center;"><textarea align="center" name="comments" rows="13" cols="50" placeholder="Пишите что только захотите"></textarea></p><br>
+<h3 style="text-align: center;color:red;font-family:verdana;">1!!1!1!1!!ТАБЛИЦА!!1!1!1!!1</h3>
+<table width="800" align="center" cellpadding="2" cellspacing="0" border="1">
+ <tr class = "tableHeader">
+  <td width="200" valign="top">HTML</td>
+  <td valign="top">Использованы основные элементы страницы   <strong style="color:green;font-family:verdana;">V</strong></td>
+ </tr>
+ <tr>
+  <td width="200" valign="top">CSS</td>
+  <td valign="top">Заданы стили к отдельным элементам страницы   <strong style="color:green;font-family:verdana;">V</strong></td>
+ </tr>
+ <tr>
+  <td width="200" valign="top">JavaScript</td>
+  <td valign="top">Написаны скрипт/скрипты для элементов   <strong style="color:green;font-family:verdana;">V</strong></td>
+ </tr>
+ <tr>
+  <td width="200" valign="top">Дизайн</td>
+  <td valign="top">Ну, что-то вроде: "Тяп-ляп и готово"...   <strong style="color:green;font-family:verdana;">+</strong><strong style="color:red;font-family:verdana;">-</strong></td>
+ </tr>
+</table><br>
+<hr>
+<p>
+┓┏┓┏┓┃ <a href="#start" style="color:red;">-НАЧАЛО-</a><br>
+┛┗┛┗┛┃ <br>
+┓┏┓┏┓┃ <br>
+┛┗┛┗┛┃ <br>
+┓┏┓┏┓┃ <br>
+┛┗┛┗┛┃&nbsp;&nbsp;&nbsp; | <br>
+┓┏┓┏┓┃&nbsp;| &nbsp;&nbsp;&nbsp;|<br>
+┛┗┛┗┛┃&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;|<br>
+┓┏┓┏┓┃＼○／ &nbsp;-Еееееее<br>
+┛┗┛┗┛┃&nbsp;&nbsp; <strong>//</strong>&nbsp;|<br>
+┓┏┓┏┓┃ノ)<br>
+┛┗┛┗┛┃ <br>
+┓┏┓┏┓┃ <br>
+┛┗┛┗┛┃ <br>
+┓┏┓┏┓┃ <br>
+┛┗┛┗┛┃ <br>
+┓┏┓┏┓┃ <br>
+┛┗┛┗┛┃ <br>
+┓┏┓┏┓┃ <br>
+┛┗┛┗┛┃ <br>
+┓┏┓┏┓┃ <br>
+┛┗┛┗┛┃ <br>
+┓┏┓┏┓┃ <br>
+┛┗┛┗┛┃ <br>
+┓┏┓┏┓┃ <br>
+┛┗┛┗┛┃ <a href="Site2.html" style="color:blue;"><strong>-Следующая страница-</strong></a><br>
+┓┏┓┏┓┃ <br>
+┛┗┛┗┛┃ </p>
+</form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body 
+{
+  margin:0;
+  background-color: black;
+}
+
+#foot 
+{
+  width:100%;
+  padding:30px;
+  padding-bottom:30px;
+  text-align: center;
+  background:#1B1B1B;
+  color:white;
+  font-size:15px;
+  position:fixed;    
+  bottom:0;          
+  left:0; 
+}           
